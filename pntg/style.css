@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    overflow-y: hidden;
+    font-family: Nunito, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+h1 {
+    font-size: 3em; 
+    margin: 1% 0% -5% 0%;
+    text-align: center;
+    color: #333;
+}
+
+#popcat1 {
+    margin: 50px 0; 
+    cursor: pointer;
+}
+
+.flower {
+    width: 50px;
+    position: absolute;
+    pointer-events: none; 
+}
