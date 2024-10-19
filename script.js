@@ -12,6 +12,14 @@ img.addEventListener("mouseup", function() {
     img.src = 'popcat1.png';
 });
 
+// Touch event
+img.addEventListener("touchstart", function(event) {
+    event.preventDefault(); // Prevent default touch behavior
+    img.src = 'popcat2.png';
+    audio.play();
+    showFlower(event.touches[0].clientX, event.touches[0].clientY);
+});
+
 // Function to show flower
 function showFlower(x, y) {
     // Create flower element
