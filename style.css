@@ -22,12 +22,4 @@ h1 {
 }
 
 #popcat1 {
-    margin: 50px 0; 
-    cursor: pointer;
-}
-
-.flower {
-    width: 50px;
-    position: absolute;
-    pointer-events: none; 
-}
+    margin: 50px 0
